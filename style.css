@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #7E753F, #4a4425);
+    color: #111;
+  }
+  
+  header {
+    background: linear-gradient(to right, #5e5530, #3a341c);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .tab {
+    padding: 12px 20px;
+    margin: 0 5px;
+    background: #006C00;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px 12px 0 0;
+    transition: 0.3s;
+  }
+  
+  .tab:hover {
+    background: #00a000;
+    transform: translateY(-3px);
+  }
+  
+  .tab.active {
+    background: #009900;
+    font-weight: bold;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .animal {
+    background: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px 0;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+  
+  .animal img {
+    max-width: 100%;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+  }
+  
+  .animal h2 {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    background: #326035;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .opis2 {
+    background: linear-gradient(to right, #326035, #224422);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 40px;
+  }
+  
+  .zapovidnyk {
+    background: rgba(255,255,255,0.85);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .zapovidnyk img {
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .zapovidnyk a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 18px;
+    color: #001DDA;
+    text-decoration: none;
+  }
+  
+  .zapovidnyk a:hover {
+    text-decoration: underline;
+  }
+  
+  .reasons, .solutions {
+    background: rgba(255,255,255,0.85);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+  }
+  
+  .videos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .videos iframe {
+    flex: 1 1 45%;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #5e5530, #3a341c);
+    color: white;
+    margin-top: 40px;
+  }
+
+.zapovidnyk .znc{
+ color: #00cc00;
+}
+  
